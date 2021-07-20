@@ -1,0 +1,11 @@
+#social-topo {
+    margin-top: 0;
+}
+#social-topo ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    height: 46px;
+    padding-top: 34px;
+}

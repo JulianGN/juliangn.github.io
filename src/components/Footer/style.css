@@ -1,0 +1,22 @@
+footer {
+    background-color: var(--lightgrey);
+    padding: .5rem 0;
+}
+
+footer article{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer article ul li{
+    line-height: 2rem;
+}
+
+footer nav ul {
+    display: flex;
+}
+
+footer article > ul strong {
+    width: 200px;
+    display: inline-block;
+}

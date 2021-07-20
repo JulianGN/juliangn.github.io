@@ -1,0 +1,16 @@
+#sobre > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+#propriedades-sobre ul li {
+    line-height: 1.85rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#propriedades-sobre ul li strong{
+    grid-column: 1;
+    display: inline-block;
+}

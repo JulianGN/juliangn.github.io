@@ -1,0 +1,24 @@
+.btns-header {
+    grid-column: 2;
+}
+
+.btns-header a {
+    display: inline-block;
+    width: 164px;
+    height: 57px;
+    line-height: 57px;
+    border-radius: 29px;
+    border: 2px solid var(--white);
+    font-size: 1.1rem;
+    text-align: center;
+}
+.btns-header a:first-child{
+    display: inline-block;
+    margin-right: 20px;
+    background-color: transparent;
+    color: var(--white);
+}
+.btns-header a:last-child{
+    background-color: var(--white);
+    color: var(--lightblue);
+}

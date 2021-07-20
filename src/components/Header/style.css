@@ -1,0 +1,11 @@
+#topo{
+    background-color: var(--darkblue);
+    background-image: linear-gradient(to right, var(--darkblue),var(--lightblue));
+}
+#topo header{
+    display: grid;
+    grid-template-columns: 256px 1fr;
+    gap: 2rem;
+    margin-top: -50px;
+    padding-bottom: 80px;
+}

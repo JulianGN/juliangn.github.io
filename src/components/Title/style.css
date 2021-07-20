@@ -1,0 +1,13 @@
+#texto-perfil{
+    color: var(--white);
+    grid-column: 2;
+}
+#texto-perfil h1 {
+    font-size: 3.8rem;
+    margin-bottom: 0;
+}
+#texto-perfil h2{
+    font-weight: 400;
+    margin-top: 0;
+    font-size: 1.8rem;
+}

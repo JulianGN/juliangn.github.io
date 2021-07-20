@@ -1,0 +1,49 @@
+#habilidades > article h3 {
+    font-weight: normal;
+    font-size: 1.15rem;
+    margin-bottom: .5rem;
+}
+
+#habilidades > article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+#habilidades .barras-coluna .container-barra{
+    width: 100%;
+    height: 53px;
+    background-color: var(--lightgrey);
+    padding: 3px;
+    border-radius: 5px;
+    margin-bottom: 1.25rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container-barra .barra{
+    width: 50%;
+    height: 100%;
+    background-color: var(--darkblue);
+    border-radius: 5px; 
+    animation: para-esquerda 1s ease-in-out .5s forwards;
+    transform: translateX(-100%);
+}
+
+.barras-coluna:first-child .barra{
+    background-color: var(--darkblue);
+    background-image: linear-gradient(to right,var(--darkblue), var(--green));
+}
+.barras-coluna:last-child .barra{
+    background-color: var(--darkblue);
+    background-image: linear-gradient(to right,var(--darkblue), var(--violet));
+}
+
+ @keyframes para-esquerda {
+     from{
+         transform: translateX(-100%);
+     }
+     to{
+         transform: translateX(0);
+     }
+ }

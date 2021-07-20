@@ -1,0 +1,39 @@
+:root{
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  --darkblue: #2B6DDB;
+  --lightblue: #24D8F2;
+  --white: #ffffff;
+  --grey: #444444;
+  --lightgrey: #eeeeee;
+  --green: #23E89B;
+  --violet: #9E23EB;
+  color: var(--grey);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.85rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a{
+  color: #444444;
+  text-decoration: none;
+}
+h2{
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+.container{
+  max-width: 1084px;
+  margin: 80px auto;
+}
