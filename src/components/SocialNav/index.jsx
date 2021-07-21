@@ -7,17 +7,17 @@ export default function SocialNav(){
         <ul>
             <li>
                 <a href="https://www.linkedin.com/in/julianjgn/">
-                    <img src="../imgs/linkedin1.svg" alt="LinkedIn" />
+                    <img src="imgs/linkedin1.svg" alt="LinkedIn" />
                 </a>
             </li>
             <li>
                 <a href="https://www.facebook.com/julian.geigernunes">
-                    <img src="../imgs/facebook1.svg" alt="Facebook" />
+                    <img src="imgs/facebook1.svg" alt="Facebook" />
                 </a>
             </li>
             <li>
                 <a href="https://www.instagram.com/julianjgn/">
-                    <img src="../imgs/instagram1.svg" alt="Instagram" />
+                    <img src="imgs/instagram1.svg" alt="Instagram" />
                 </a>
             </li>
         </ul>
