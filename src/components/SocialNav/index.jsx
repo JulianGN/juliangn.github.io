@@ -20,6 +20,11 @@ export default function SocialNav(){
                     <img src="imgs/instagram1.svg" alt="Instagram" />
                 </a>
             </li>
+            <li>
+                <a href="http://localhost:3000/imgs/github2.svg">
+                    <img src="imgs/github1.svg" alt="GitHub" />
+                </a>
+            </li>
         </ul>
     </nav>
     )

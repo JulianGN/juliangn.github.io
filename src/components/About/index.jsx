@@ -7,7 +7,6 @@ export default function About(){
         
             <h2>Sobre mim</h2>
 
-            <div>
             <article id="texto-sobre">
                 <p>Designer com especialização em audiovisual, editor do portal Designerd, professor nas áreas de computação gráfica e internet há 8 anos no Senac Santo André e 12 anos de experiência com criação de produtos digitais.</p>
             </article>
@@ -38,9 +37,7 @@ export default function About(){
                         <span>Santo André / SP</span>
                     </li>
                 </ul>            
-            </article>
-        </div>
-        
+            </article>        
         
     </section>
     )

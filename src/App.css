@@ -2,6 +2,7 @@
   font-size: 16px;
   font-family: 'Montserrat', sans-serif;
   --darkblue: #2B6DDB;
+  --midblue: #28a5e7;
   --lightblue: #24D8F2;
   --white: #ffffff;
   --grey: #444444;
@@ -26,7 +27,7 @@ ul {
 }
 
 a{
-  color: #444444;
+  color: var(--grey);
   text-decoration: none;
 }
 h2{
@@ -36,4 +37,5 @@ h2{
 .container{
   max-width: 1084px;
   margin: 80px auto;
+  padding: 0 2rem;
 }

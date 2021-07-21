@@ -9,3 +9,11 @@
     margin-top: -50px;
     padding-bottom: 80px;
 }
+
+@media (max-width: 800px){
+    #topo header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

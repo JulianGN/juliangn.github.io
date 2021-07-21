@@ -11,3 +11,12 @@
     margin-top: 0;
     font-size: 1.8rem;
 }
+
+@media (max-width: 800px){
+    #texto-perfil {
+        margin-top: 80px;
+    }
+    #texto-perfil h1, #texto-perfil h2 {
+        text-align: center;
+    }
+}

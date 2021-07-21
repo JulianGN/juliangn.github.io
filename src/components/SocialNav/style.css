@@ -9,3 +9,28 @@
     height: 46px;
     padding-top: 34px;
 }
+
+@media (max-width: 800px){
+    #social-topo{
+        position: relative;
+        z-index: 1;
+    }
+    #social-topo ul {
+        justify-content: center;
+        padding-top: 1rem
+    }
+
+    #social-topo ul a {
+        background-color: var(--midblue);
+        display: flex;
+        margin: .25rem;
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    #social-topo ul img {
+        width: 32px;
+    }
+}

@@ -4,8 +4,13 @@ footer {
 }
 
 footer article{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+footer article > ul li {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 footer article ul li{
@@ -14,9 +19,28 @@ footer article ul li{
 
 footer nav ul {
     display: flex;
+    justify-content: flex-end;
 }
 
-footer article > ul strong {
+/* footer article > ul strong {
     width: 200px;
     display: inline-block;
+} */
+
+@media (max-width: 800px){
+    footer{
+        text-align: center;
+    }
+    footer article{
+        grid-template-columns: 1fr;
+    }
+
+    footer article > ul li {
+        grid-template-columns: 1fr;
+    }
+
+    footer nav ul {
+        margin-top: 1rem;        
+        justify-content: center;
+    }
 }

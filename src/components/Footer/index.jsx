@@ -45,6 +45,11 @@ export default function Footer(){
                                     <img src="imgs/instagram2.svg" alt="Instagram" />
                                 </a>
                             </li>
+                            <li>
+                                <a href="https://github.com/JulianGN">
+                                    <img src="imgs/github2.svg" alt="GitHub" />
+                                </a>
+                            </li>
                         </ul>
                     </nav>
                 </article>
