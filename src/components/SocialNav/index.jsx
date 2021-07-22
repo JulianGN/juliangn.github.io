@@ -21,7 +21,7 @@ export default function SocialNav(){
                 </a>
             </li>
             <li>
-                <a href="http://localhost:3000/imgs/github2.svg">
+                <a href="https://github.com/JulianGN">
                     <img src="imgs/github1.svg" alt="GitHub" />
                 </a>
             </li>

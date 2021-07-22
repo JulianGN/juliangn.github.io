@@ -4,9 +4,7 @@ import './style.css';
 export default function Experiences(){
     return (
         <section id="experiencia" className="container blocos">
-            <header>
-                <h2>Experiência Profissional</h2>
-            </header>
+            <h2>Experiência Profissional</h2>
 
             <article>
                 <div>
