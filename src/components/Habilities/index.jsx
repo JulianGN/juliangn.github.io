@@ -3,7 +3,7 @@ import './style.css';
 
 const Barra = (props) => {
     return (    
-    <div id={props.hab.toString().toLowerCase().replace(' / ','-').replace(' ','-').replace('/','-')}>
+    <div data-scroll="anima" id={props.hab.toString().toLowerCase().replace(' / ','-').replace(' ','-').replace('/','-')}>
         <h3>{props.hab}</h3>
         <div className="container-barra">
             <div className="barra" style={{width:(props.pct)}}></div>
@@ -16,7 +16,7 @@ export default function Habilities(){
     return (
         <section id="habilidades" className="container">
 
-            <h2>Minhas Habilidades</h2>
+            <h2 data-scroll="anima-up">Minhas Habilidades</h2>
 
             <article>
 

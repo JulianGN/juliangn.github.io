@@ -3,7 +3,7 @@ import './style.css';
 
 export default function About(){
     return (
-        <section id="sobre" className="container">   
+        <section data-scroll="anima-up" id="sobre" className="container">   
         
             <h2>Sobre mim</h2>
 

@@ -5,7 +5,7 @@ export default function Courses(){
     return(
         <section id="cursos" className="container blocos">
             
-            <h2>Cursos e Formação</h2>
+            <h2 data-scroll="anima-up">Cursos e Formação</h2>
 
             <EachCourse courseTitle="Desenvolvimento de aplicações para internet com ReactJS" school="Digital Inovation One" yearCourse="2021"/>
 

@@ -1,8 +1,9 @@
 import React from 'react';
 
 export default function EachExp(props){
+
     return(
-        <article>
+        <article data-scroll="anima">
             <div>
                 <h3>{props.job} <span>{props.company}</span></h3>
                 <h4>{props.begin} – {props.end}</h4>

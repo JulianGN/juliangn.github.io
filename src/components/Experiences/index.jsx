@@ -1,11 +1,12 @@
 import React from 'react';
 import EachExp from '../EachExp';
 import './style.css';
+import startAnimaScroll from '../../modules/anima-scroll.js'
 
 export default function Experiences(){
     return (
         <section id="experiencia" className="container blocos">
-            <h2>Experiência Profissional</h2>
+            <h2 data-scroll="anima-up">Experiência Profissional</h2>
 
             <EachExp job="Professor de Computação Gráfica" company="Senac São Paulo" begin="set/2013" end="Atual" descript="Docente na área de Design e Internet para os cursos de Computação Gráfica, Técnico em Computação Gráfica, Illustrator, Photoshop, InDesign, Premiere Pro, After Effects, HTML/CSS, JavaScript e WordPress."/>
 

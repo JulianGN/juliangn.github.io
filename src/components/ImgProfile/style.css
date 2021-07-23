@@ -2,8 +2,8 @@
     height: 222px;
     background-color: var(--white);
     margin-top: -80px;
-    transform: translateY(-20px);
-    animation: fall .75s cubic-bezier(.75,0,.5,1.25) forwards;
+    transform: translateY(-200%);
+    animation: fall .75s .25s cubic-bezier(.75,0,.5,1.25) forwards;
 }
 
 @keyframes fall {

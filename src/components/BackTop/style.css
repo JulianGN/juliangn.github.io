@@ -1,0 +1,21 @@
+#back-top {
+    opacity: 0;
+    transition: 1s;
+}
+#back-top.active {
+    opacity: 1;
+    transition: 1s;
+}
+#back-top a {
+    background-color: var(--midblue);
+    color: var(--white);
+    padding: 0.6rem 0.75rem;
+    display: inline-block;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    transform: scale(1.5);
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+}

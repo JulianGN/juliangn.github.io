@@ -12,7 +12,7 @@ export default function Header(){
 
     const InsideHeader = ({myClass, children}) => {
         return (
-            <header className={myClass}>
+            <header data-scroll="anima" className={myClass}>
                 {children}
             </header>
         )

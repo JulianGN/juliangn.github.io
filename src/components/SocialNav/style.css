@@ -10,6 +10,24 @@
     padding-top: 34px;
 }
 
+#social-topo li {
+    opacity: 0;
+    transform: translateY(-100%);
+    animation: fall-icons .75s forwards;
+}
+#social-topo li:nth-child(1) {
+    animation-delay: .25s;
+}
+#social-topo li:nth-child(2) {
+    animation-delay: .5s;
+}
+#social-topo li:nth-child(3) {
+    animation-delay: .75s;
+}
+#social-topo li:nth-child(4) {
+    animation-delay: 1s;
+}
+
 @media (max-width: 800px){
     #social-topo{
         position: relative;
@@ -32,5 +50,16 @@
     }
     #social-topo ul img {
         width: 32px;
+    }
+}
+
+@keyframes fall-icons {
+    from{
+        opacity: 0;
+        transform: translateY(-200%);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
     }
 }
