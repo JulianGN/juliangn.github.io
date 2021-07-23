@@ -28,8 +28,3 @@
     font-weight: normal;
     font-style: italic;
 }
-
-#cursos article {
-    background-color: #9E23EB;
-    background-image: linear-gradient(to right, #9E23EB, #3B24F2, #fff);   
-}

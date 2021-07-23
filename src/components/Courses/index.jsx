@@ -1,47 +1,21 @@
 import React from 'react';
-import './style.css';
+import EachCourse from '../EachCourse';
 
 export default function Courses(){
     return(
         <section id="cursos" className="container blocos">
-            <header>
-                <h2>Cursos e Formação</h2>
-            </header>
+            
+            <h2>Cursos e Formação</h2>
 
-            <article>
-                <div>
-                    <h3>Desenvolvimento de aplicações para internet com ReactJS <span>Digital Inovation One</span></h3>
-                    <h4>2021</h4>
-                </div>
-            </article>
+            <EachCourse courseTitle="Desenvolvimento de aplicações para internet com ReactJS" school="Digital Inovation One" yearCourse="2021"/>
 
-            <article>
-                <div>
-                    <h3>JavaScript Completo ES6 <span>Origamid</span></h3>
-                    <h4>2020 – 2021</h4>
-                </div>
-            </article>
+            <EachCourse courseTitle="JavaScript Completo ES6" school="Origamid" yearCourse="2020 – 2021"/>
 
-            <article>
-                <div>
-                    <h3>Arquitetura Web e SEO <span>Senac</span></h3>
-                    <h4>2014</h4>
-                </div>
-            </article>
+            <EachCourse courseTitle="Arquitetura Web e SEO" school="Senac" yearCourse="2014"/>
 
-            <article>
-                <div>
-                    <h3>Pós Graduação em Criação em Imagem e Som <span>Senac</span></h3>
-                    <h4>2009 – 2010</h4>
-                </div>
-            </article>
+            <EachCourse courseTitle="Pós Graduação em Criação em Imagem e Som" school="Senac" yearCourse="2009 – 2010"/>
 
-            <article>
-                <div>
-                    <h3>Produção Multimídia <span>Universidade Santa Cecília</span></h3>
-                    <h4>2007 – 2009</h4>
-                </div>
-            </article>
+            <EachCourse courseTitle="Produção Multimídia" school="Universidade Santa Cecília" yearCourse="2007 – 2009"/>
             
 
         </section>
