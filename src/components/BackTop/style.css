@@ -9,12 +9,11 @@
 #back-top a {
     background-color: var(--midblue);
     color: var(--white);
-    padding: 0.6rem 0.75rem;
+    padding: 1rem;
     display: inline-block;
     border-radius: 50%;
-    width: 2rem;
-    height: 2rem;
-    transform: scale(1.5);
+    width: 3rem;
+    height: 3rem;
     position: fixed;
     bottom: 3rem;
     right: 3rem;
