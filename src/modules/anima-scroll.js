@@ -9,7 +9,7 @@ export default function startAnimaScroll(){
     function animaScroll(){
         totalAnimados.forEach(bloco => {
             const topo = bloco.getBoundingClientRect().top;
-            const calculoDistancia = window.innerHeight * 0.8;
+            const calculoDistancia = window.innerHeight * 0.95;
 
             if(topo < calculoDistancia){
                 bloco.classList.add('active');

@@ -3,14 +3,14 @@ import './style.css';
 
 export default function About(){
     return (
-        <section data-scroll="anima-up" id="sobre" className="container">   
+        <section id="sobre" className="container">   
         
-            <h2>Sobre mim</h2>
+            <h2 data-scroll="anima-up">Sobre mim</h2>
 
-            <article id="texto-sobre">
+            <article data-scroll="anima-up" id="texto-sobre">
                 <p>Desenvolvedor Front End e Designer com especialização em audiovisual, editor do Designerd, professor de computação gráfica e internet há 8 anos no Senac Santo André e 12 anos de experiência com criação de produtos digitais.</p>
             </article>
-            <article id="propriedades-sobre">            
+            <article data-scroll="anima-up" id="propriedades-sobre">            
                 <ul>
                     <li>
                         <strong>Idade</strong>

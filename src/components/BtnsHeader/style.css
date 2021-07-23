@@ -21,3 +21,11 @@
     background-color: var(--white);
     color: var(--midblue);
 }
+
+@media(max-width:640px){
+    .btns-header a {
+        display: block;
+        width: 164px;
+        margin: 1rem 0 !important;
+    }
+}
