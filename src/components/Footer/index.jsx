@@ -3,7 +3,7 @@ import './style.css';
 
 export default function Footer(){
     return (
-        <footer data-scroll="anima-up">
+        <footer>
 
             <div className="container">
 

@@ -7,8 +7,9 @@ export default function Experiences(){
     return (
         <section id="experiencia" className="container blocos">
             <h2 data-scroll="anima-up">Experiência Profissional</h2>
+            <EachExp job="Desenvolvedor Fullstack Jr." company="Stone Linx" begin="ago/2021" end="Atual" descript="Trabalhando diretamente no desenvolvimento e manutenção do ERP Microvix, um dos sistemas mais utilizados no varejo brasileiro. Utilizando diariamente tecnologias como JavaScript | Vue | HTML5/CSS3 | Bootstrap | C# (.Net Framework) | ASP.NET WebAPI."/>
 
-            <EachExp job="Professor de Computação Gráfica" company="Senac São Paulo" begin="set/2013" end="Atual" descript="Docente na área de Design e Internet para os cursos de Computação Gráfica, Técnico em Computação Gráfica, Illustrator, Photoshop, InDesign, Premiere Pro, After Effects, HTML/CSS, JavaScript e WordPress."/>
+            <EachExp job="Professor de Computação Gráfica" company="Senac São Paulo" begin="set/2013" end="set/2021" descript="Docente na área de Design e Internet para os cursos de Computação Gráfica, Técnico em Computação Gráfica, Illustrator, Photoshop, InDesign, Premiere Pro, After Effects, HTML/CSS, JavaScript e WordPress."/>
 
             <EachExp job="Editor e Coordenador de Cursos" company="Designerd" begin="jan/2016" end="Atual" descript={`Prospecção de parcerias para o blog e plataforma de ensino criativo Designerd.
             Curadoria e edição de conteúdo.`} />

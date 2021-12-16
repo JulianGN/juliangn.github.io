@@ -23,13 +23,13 @@ export default function Habilities(){
                 <div className="barras-coluna">
                     <Barra hab="HTML/CSS" pct="95%" />
                     <Barra hab="JavaScript" pct="70%" />
-                    <Barra hab="React" pct="55%" />
+                    <Barra hab="React / Vue" pct="60%" />
                 </div>
               
                 <div className="barras-coluna">
                     <Barra hab="Photoshop/Illustrator" pct="100%" />
                     <Barra hab="Premiere Pro / After Effects" pct="85%" />
-                    <Barra hab="Adobe XD" pct="90%" />
+                    <Barra hab="Adobe XD / Figma" pct="90%" />
                 </div>
 
 

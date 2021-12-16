@@ -7,6 +7,10 @@ export default function Courses(){
             
             <h2 data-scroll="anima-up">Cursos e Formação</h2>
 
+            <EachCourse courseTitle=".Net Direto ao Ponto (Formação C# / .Net)" school="LuisDev" yearCourse="2021 - Cursando"/>
+
+            <EachCourse courseTitle="MRV Front End SPA Developer" school="Digital Inovation One" yearCourse="2021"/>
+
             <EachCourse courseTitle="Desenvolvimento de aplicações para internet com ReactJS" school="Digital Inovation One" yearCourse="2021"/>
 
             <EachCourse courseTitle="JavaScript Completo ES6" school="Origamid" yearCourse="2020 – 2021"/>

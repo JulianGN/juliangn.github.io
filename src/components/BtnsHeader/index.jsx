@@ -10,7 +10,7 @@ const Btn = ({href, children}) => {
 export default function BtnsHeader(){
     return(
         <div className="btns-header">
-            <Btn href='files/julian_cv2021.pdf'>Baixar CV</Btn>
+            <Btn href='files/julian_cv2021-v2.pdf'>Baixar CV</Btn>
             <Btn href='mailto:contato@juliannunes.com.br'>Fale comigo</Btn>
         </div>    
     )

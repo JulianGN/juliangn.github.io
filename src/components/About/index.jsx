@@ -8,7 +8,7 @@ export default function About(){
             <h2 data-scroll="anima-up">Sobre mim</h2>
 
             <article data-scroll="anima-up" id="texto-sobre">
-                <p>Desenvolvedor Front End e Designer com especialização em audiovisual, editor do Designerd, professor de computação gráfica e internet há 8 anos no Senac Santo André e 12 anos de experiência com criação de produtos digitais.</p>
+                <p>Atuo na Stone Linx como desenvolvedor web (JS / VueJS, C# / .Net), mas também carrego conhecimentos de mais de 10 anos de experiência como designer, videomaker, além de ser editor de conteúdo do portal Designerd e 8 anos como professor no Senac. Somando mais de 12 anos de experiência com criação de produtos digitais.</p>
             </article>
             <article data-scroll="anima-up" id="propriedades-sobre">            
                 <ul>
@@ -24,14 +24,14 @@ export default function About(){
                             </a>
                         </span>
                     </li>
-                    <li>
+                    {/* <li>
                         <strong>Portfólio</strong>
                         <span>
                             <a href="https://www.pullso.com.br">
                                 www.pullso.com.br
                             </a>
                         </span>
-                    </li>
+                    </li> */}
                     <li>
                         <strong>Localização</strong>
                         <span>Santo André / SP</span>
